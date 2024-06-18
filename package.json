@@ -8,5 +8,8 @@
     "server": "node index.js"
   },
   "author": "Bhav Kushwaha",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
