@@ -39,4 +39,16 @@
 29. Created the GET API using try-catch block, async await function, res status lines.
 30. Verified the GET Request is working or not through POSTMAN and also directly through browser.
 
-31. GET FUNCTIONALITY (SPECIFIC DATA) -GET API
+31. GET FUNCTIONALITY (SPECIFIC DATA) - GET API
+32. Created the GET API using try-catch block, async await function, res status lines.
+33. Here the only difference was that we used findById(id) instead just a simple find().
+34. Verified the GET Request is working or not through POSTMAN and also directly through browser.
+
+35. UPDATE FUNCTIONALITY - PUT API
+36. Created the PUT API using try-catch block, async await function, res status lines.
+37. Verified the PUT Request is working or not through POSTMAN and also directly through browser.
+
+38. DELETE FUNCTIONALITY - DELETE API
+39. Created the DELETE API using try-catch block, async await function, res status lines.
+40. Verified the DELETE Request is working or not through POSTMAN and also directly through browser.
+
