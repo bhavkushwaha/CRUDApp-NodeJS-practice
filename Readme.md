@@ -1,5 +1,7 @@
 ## Documentation
 
+(Images of the project at the end of the documentation)
+
 1. Nodejs installed (already present)
 2. NPM installed (already present)
 
@@ -52,3 +54,20 @@
 39. Created the DELETE API using try-catch block, async await function, res status lines.
 40. Verified the DELETE Request is working or not through POSTMAN and also directly through browser.
 
+41. Performing CRUD Operations through Form URL encoded via POSTMAN
+42. Currently if we use form url encoded feature of POSTMAN then it will throw an error.
+43. The reason is currently our middleware is not configured for that process.
+44. app.use(express.urlencoded({ extended: false })); configures the middleware for data to be created via urlencoded form
+
+45. ROUTING in our NODE API
+46. Now rather than writing all the APIs in our index.js, we use the concept of routing.
+47. We create routes directory and mention all the routes we are going to use in the project.
+48. Then export the router to the index.js and then it main file fetches all the APIs from the routes directory rather than hard coded in the index.js file.
+
+49. CONTROLLERS in our NODE API
+50. We use the controllers directory to write all the APIs and their try-catch blocks that we wrote in the index.js file.
+51. The difference is here we write the mas const and then export them to the routes.js file in order to associate routes with them.
+
+52. Therefore the index.js, ProductRoutes.js and ProductController.js file works hand in hand here!
+
+![JSON Tree of the project output](image.png)
